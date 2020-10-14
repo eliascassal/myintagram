@@ -10,7 +10,7 @@ class Like extends Model
 // relacion una imagen muchos comments
     public function images(){
 
-        return $this->belongsTo('App\Image', 'image_id'); 
+        return $this->belongsTo('App\Image', 'img_id'); 
     }
 // relacion con User muchos comments
 

@@ -14,7 +14,7 @@ class Comment extends Model
 }
 public function image(){
 
-    return $this -> belongsTo('App\Image', 'image_id');
+    return $this -> belongsTo('App\Image', 'img_id');
 
 }
 }
