@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Nis Fotos</title>
+    <title>Mis Fotos</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -63,7 +63,7 @@
                                 <a class="dropdown-item" href="">
                                         My profile
                                     </a>
-                                    <a class="dropdown-item" href="">
+                                    <a class="dropdown-item" href="{{ route('config')}}>
                                         Seetings
                                     </a>
                                     <a class="dropdown-item" href="{{ route('logout') }}"
